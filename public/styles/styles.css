@@ -19,8 +19,11 @@
 }
 
 .menu__logo{
-    width: 40px;
     height: 40px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .menu__logo-img{
@@ -60,8 +63,8 @@
     border: none;
     font-size: 1rem;
     font-weight: 600;
-    background-color: var(--white);
-    color: var(--color);
+    background-color: var(--color2);
+    color: #000;
     font-family: montserrat;
     display: flex;
     align-items: center;
@@ -179,6 +182,7 @@
     top: -50px;
     left: 0;
     background-color: var(--white);
+    
     clip-path: polygon(50% 60%, 100% 0%, 100% 99%, 0 100%, 0 0);
 }
 
@@ -231,7 +235,7 @@
 
 .services{
     background-color: var(--color);
-    color: var(--white);
+    color: var(--black);
     padding: 96px 32px;
     position: relative;
 }
@@ -309,6 +313,7 @@
 
 .service__img {
     width: 100%;
+    max-width: 300px;
     height: 200px;
     border-radius: 0px 16px 0px 16px;
     object-fit: cover;
@@ -387,8 +392,8 @@
     max-width: 550px;
     padding: 32px;
     border-radius: 8px;
-    background-color: var(--color);
-    color: var(--white);
+    background-color: var(--color3);
+    color: var(--black);
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -407,6 +412,7 @@
     border-radius: 8px;
     border: none;
     outline: none;
+    background-color: #dfe7ee;
 }
 
 .contact__label select{
@@ -415,6 +421,8 @@
     border: none;
     outline: none;
     border: none;
+    background-color: #dfe7ee;
+
 }
 
 .contact__label input[type="datetime-local"]{
@@ -431,7 +439,7 @@
     border-radius: 32px;
     font-family: 1rem;
     font-weight: 600;
-    color: var(--color);
+    color: var(--black);
     align-self: center;
     border: none;
 }
@@ -442,9 +450,9 @@
     align-items: center;
     gap: 16px;
     padding: 16px;
-    background-color: #b3b792;
+    background-color: var(--color2);
     border-radius: 16px;
-    color: var(--white);
+    color: var(--black);
 }
 
 .method__textbox{
@@ -473,7 +481,7 @@
     padding: 32px;
     display: flex;
     flex-direction: column;
-    background-color: var(--colorMenu);
+    background-color: var(--black);
     color: var(--white);
     align-items: center;
     gap: 32px;
@@ -481,8 +489,7 @@
 }
 
 .footer__logo{
-    width: 100px;
-    height: 100px;
+    height: 40px;
 }
 
 .footer__logo img{
@@ -508,4 +515,25 @@
 
 .footer p{
     font-weight: 400;
+}
+
+.info{
+    padding: 16px;
+    background-color: var(--color2);
+    border-radius: 8px;
+}
+
+
+@media (width < 500px) {
+    .contact{
+        padding: 96px 16px;
+    }
+
+    .contact__textbox{
+        padding:16px;
+    }
+
+    .contact__method{
+        padding:8px;
+    }
 }

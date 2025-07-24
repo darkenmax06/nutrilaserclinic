@@ -3,6 +3,7 @@ const container = document.querySelector(".services__services")
 const inputs = document.querySelectorAll(".services__form input")
 const select = document.getElementById("select")
 const form = document.querySelector(".contact__form")
+const btn = form.querySelector("button")
 
 const data = info.data
 let loading = false
@@ -85,7 +86,6 @@ filterServices(results)
 
 const fragment = document.createDocumentFragment()
 data.forEach(res => {
-    console.log(res.name)
     const option = document.createElement("option")
     option.setAttribute("value",res.name)
     option.textContent = res.name
@@ -112,6 +112,7 @@ form.addEventListener("submit", e =>{
     else if (!data.service) return alert("Debe seleccionar un servicio")
     else if (!data.date) return alert("Debe seleccionar un horario")
 
+    loading = true
     const uri = "http://localhost:3000"
 
     const body = {
@@ -129,12 +130,21 @@ form.addEventListener("submit", e =>{
         "body": JSON.stringify(body)
     }
 
-    loading = true
+    btn.textContent="cargando..."
+
+
 
     fetch(uri,options)
     .then(res => res.json())
-    .then(res => alert(res.message))
-    .catch(err => console.log(err))
+    .then(res => {
+        alert(res.message)
+    })
+    .catch(err => {
+        alert(err.message)
+    }).finally(()=> {
+        btn.textContent = "Agendar cita"
+        loading = false
+    })
 
-    loading=false
+
 })

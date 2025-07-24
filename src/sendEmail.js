@@ -26,7 +26,7 @@ async function sendEmail ({name, number, service, date}){
             service: "gmail",
             auth: {
                 type: "OAuth2",
-                user: "enanitola3@gmail.com",
+                user: "noreplyinformation06@gmail.com",
                 clientId: CLIENT_ID,
                 clientSecret: CLIENT_SECRET,
                 refreshToken: REFRESH_TOKEN,
@@ -35,7 +35,7 @@ async function sendEmail ({name, number, service, date}){
         })
 
         const mailOptions = {
-            from: "enanitola3@gmail.com",
+            from: "noreplyinformation06@gmail.com",
             to: "nutri.laser.clinic@gmail.com",
             subject: `Nueva cita ${name}!`,
             text: "Felicidades!, Un nuevo cliente",
@@ -57,7 +57,7 @@ async function sendEmail ({name, number, service, date}){
                                 <a href="https://wa.me/${number}?text=Hola%20${name}!%0A%0AVimos%20que%20agendaste%20una%20cita%20para%20un%20servicio%20de:%20*${service}*%20el%20dia:%20*${dia}%2F${mes}%2F${year}*%20a%20las:%20${hora}%20y%20nos%20gustaria%20que%20confirmes%20tu%20asistencia!%20Sera%20un%20placer%20para%20nosotros%20el%20poder%20asistirte!">${number}</a>
                             </td>
                             <td>${service}</td>
-                            <td>${dia}%2F${mes}%2F${year} a las: ${hora}</td>
+                            <td>${dia}/${mes}/${year} a las: ${hora}</td>
                         </tr>
                     </table>
                 </div>

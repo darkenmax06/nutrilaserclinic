@@ -6,9 +6,11 @@
 :root{
     --white: #F2F3F7;
     --white2: #E6E8F0;
-    --color: #8ba27c;
-    --colorMenu: #738765;
-    --color2: #72563a;
+    --color: #cdd9c5;
+    --colorMenu: #6d7a71;
+    --color2: #eadcce;
+    --color3: #cbd5dc;
+    --black: #413e35;
 }
 
 *{
@@ -25,6 +27,7 @@ body{
     font-family: montserrat;
     font-weight: 400;
     background-color: var(--white);
+    font-display: swap;
 }
 
 ul{

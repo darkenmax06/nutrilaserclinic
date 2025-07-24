@@ -2,73 +2,73 @@
     "data":[
         {
             "name":"Limpieza facial profunda",
-            "price": "RD$1200 - RD$1800",
+            "price": "RD$1500",
             "description": "Higiene con extraccion, vapor, alta frecuencia.",
             "src": "/assets/images/limpiezaprofunda.webp",
             "service": "facial"
         },        {
             "name":"Peeling quimico",
-            "price": "RD$1500 - RD$2500",
+            "price": "RD$2,000",
             "description": "Exfoliacion con acidos (manchas, textura)",
             "src": "/assets/images/peelingquimico.webp",
             "service": "facial"
         },        {
             "name":"Dermapen + Vitaminas",
-            "price": "RD$3000 - RD$4500",
+            "price": "RD$3,500",
             "description": "Microneedling con activos para rejuvenecer.",
             "src":"/assets/images/dermapen.webp",
             "service": "facial"
         },        {
             "name":"Plasma rico en plaquetas (PRP)",
-            "price": "RD$4500 - RD$6000",
+            "price": "RD$5,000",
             "description": "Rejuvenecimiento natural con tu propia sangre.",
             "src": "/assets/images/plasma.webp",
             "service": "facial"
         },        {
             "name":"Botox (3 zonas)",
-            "price": "RD$9000 - RD$12000",
+            "price": "RD$10,000",
             "description": "Frente, entrecejo y patas de gallo.",
             "src": "/assets/images/botox.webp",
             "service": "facial"
         },        {
             "name":"Relleno con acido hialurónico",
-            "price": "RD$7000/u",
+            "price": "RD$7,000/u",
             "description": "Relleno con ácido hialurónico Labios, ojeras, surcos, pómulos",
             "src": "/assets/images/relleno.webp",
             "service": "facial"
         },        {
             "name":"Hidratación facial profunda",
-            "price": "RD$1800 - RD$2500",
+            "price": "RD$1,800",
             "description": "Infusión de activos hidratantes + radiofrecuencia",
             "src": "/assets/images/hidratacion.webp",
             "service": "facial"
         },        {
             "name":"Cavitacion",
-            "price": "RD$1500 por zona",
+            "price": "RD$1,500 por zona",
             "description": "Ultrasonido para grasa localizada",
             "src": "/assets/images/cavitacion.webp",
             "service": "corporales"
         },        {
             "name":"Radiofrecuencia corporal",
-            "price": "RD$1500 - RD$2000",
+            "price": "RD$1,500",
             "description": "Mejora flacides y celulitis",
             "src": "/assets/images/radiofrecuencia.webp",
             "service": "corporales"
         },        {
             "name":"Crioliptosis (Una zona)",
-            "price": "RD$4500 - RD$6000",
+            "price": "RD$4,500",
             "description": "Congelacion de grasa para eliminarla",
             "src": "/assets/images/crioliptosis.webp",
             "service": "corporales"
         },        {
             "name":"Mesoterapia corporal",
-            "price": "RD$2000 por sesion",
+            "price": "RD$2,000 por sesion",
             "description": "Infliltracion de quemadores de grasa",
             "src": "/assets/images/mesoterapia.webp",
             "service": "corporales"
         },        {
             "name":"Drenaje linfatico / Presoterapia",
-            "price": "RD$1200 - RD$1800",
+            "price": "RD$1,500",
             "description": "Reduccion de liquidos y toxinas",
             "src": "/assets/images/drenaje.webp",
             "service": "corporales"
@@ -80,26 +80,26 @@
             "service": "corporales"
         },      {
             "name":"Depilacion laser (axilas)",
-            "price": "RD$1000 - RD$1500",
+            "price": "RD$1,200",
             "description": "Laser diodo sporano / alexandrita",
             "src": "/assets/images/axilas.webp",
             "service": "laser"
         },        {
             "name":"Depilacion laser (piernas completas)",
-            "price": "RD$3500 - RD$4500",
+            "price": "RD$3,500",
             "description": "Sesion de laser medica",
             "src": "/assets/images/piernas.webp",
             "service": "laser"
         },       {
             "name":"Suero revitalizante IV",
-            "price": "RD$3000 - RD$5000",
+            "price": "RD$3,500",
             "description": "Vitaminas, antioxidantes, energia",
             "src": "/assets/images/suero.webp",
             "service": "vitaminas"
         },        {
             "name":"Consulta nutricional",
-            "price": "RD$2500",
-            "description": "Enfoque en piel, grasa corporal y alimentacion",
+            "price": "RD$2500 1ra consulta",
+            "description": "Enfoque en piel, grasa corporal y alimentacion RD$2000 seguimiento.",
             "src": "/assets/images/consulta.webp",
             "service": "vitaminas"
         }

@@ -1,0 +1,9 @@
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "name": "Ramses Gonzalez",
+    "number": 829468897,
+    "date": "Thu Jul 24 2025 01:12:59 GMT-0400",
+    "service": "asd"
+}
