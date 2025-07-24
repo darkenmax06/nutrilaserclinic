@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url("/assets/fonts/Montserrat.ttf");
+}
+
+:root{
+    --white: #F2F3F7;
+    --white2: #E6E8F0;
+    --color: #8ba27c;
+    --colorMenu: #738765;
+    --color2: #72563a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat;
+    font-weight: 400;
+    background-color: var(--white);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.48rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+strong{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+iframe{
+    filter: brightness(.7);
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    font-family: montserrat;
+
+}
+
+select{
+    font-family: montserrat;
+    font-weight: 400;
+}
